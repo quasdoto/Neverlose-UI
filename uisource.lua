@@ -142,7 +142,7 @@ function Library:Window(options)
     SideBar.BorderSizePixel = 0
     SideBar.Size = UDim2.new(0, 187, 0, 516)
 
-    sidebarCorner.CornerRadius = UDim.new(0, 100)
+    sidebarCorner.CornerRadius = UDim.new(0, 20)
     sidebarCorner.Name = "sidebarCorner"
     sidebarCorner.Parent = SideBar
 
