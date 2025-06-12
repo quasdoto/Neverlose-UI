@@ -1,6 +1,6 @@
 local Library = {}
 
-local NeverloseVersion = "v1.1A."
+local NeverloseVersion = "v1"
 
 local TweenService = game:GetService("TweenService")
 local input = game:GetService("UserInputService")
@@ -132,7 +132,7 @@ function Library:Window(options)
     Body.Position = UDim2.new(0.465730786, 0, 0.5, 0)
     Body.Size = UDim2.new(0, 658, 0, 516)
 
-    bodyCorner.CornerRadius = UDim.new(0, 4)
+    bodyCorner.CornerRadius = UDim.new(0, 10)
     bodyCorner.Name = "bodyCorner"
     bodyCorner.Parent = Body
 
