@@ -140,7 +140,7 @@ function Library:Window(options)
     bodyCornerFiller.BackgroundColor3 = Color3.fromRGB(25, 37, 49)
     bodyCornerFiller.BorderSizePixel = 0
     bodyCornerFiller.Position = UDim2.new(0.179, 0, 0, 0)
-    bodyCornerFiller.Size = UDim2.new(0, 44, 0, 620)
+    bodyCornerFiller.Size = UDim2.new(0, 46, 0, 620)
 
     bodyCorner.CornerRadius = UDim.new(0, 10)
     bodyCorner.Name = "bodyCorner"
@@ -179,21 +179,6 @@ function Library:Window(options)
     tbLine.Position = UDim2.new(-0, 0, 0.999, 0)
     tbLine.Size = UDim2.new(0, 627, 0, 2)
 
-    Title.Name = "Title"
-    Title.Parent = SideBar
-    Title.BackgroundColor3 = Color3.fromRGB(234, 239, 245)
-    Title.BackgroundTransparency = 1.000
-    Title.BorderSizePixel = 0
-    Title.Position = UDim2.new(0, 0, 0.016, 0)
-    Title.Size = UDim2.new(0, 193, 0, 50)
-    Title.ZIndex = 2
-    Title.Font = Enum.Font.BuilderSans
-    Title.Text = options.text
-    Title.TextColor3 = Color3.fromRGB(255, 255, 255)
-    Title.TextSize = 35.000
-    Title.TextWrapped = true
-    Title.FontFace.Weight = Enum.FontWeight.Bold
-
     titleBackColor.Name = "titleBackColor"
     titleBackColor.Parent = SideBar
     titleBackColor.BackgroundColor3 = Color3.fromRGB(234, 239, 245)
@@ -201,7 +186,6 @@ function Library:Window(options)
     titleBackColor.BorderSizePixel = 0
     titleBackColor.Position = UDim2.new(-0.005, 0, 0.015, 0)
     titleBackColor.Size = UDim2.new(0, 194, 0, 50)
-    titleBackColor.ZIndex = 1
     titleBackColor.Font = Enum.Font.BuilderSans
     titleBackColor.Text = options.text
     titleBackColor.TextColor3 = Color3.fromRGB(38, 180, 246)
@@ -216,13 +200,26 @@ function Library:Window(options)
     titleBackColor2.BorderSizePixel = 0
     titleBackColor2.Position = UDim2.new(-0.005, 0, 0.016, 0)
     titleBackColor2.Size = UDim2.new(0, 193, 0, 50)
-    titleBackColor2.ZIndex = 1
     titleBackColor2.Font = Enum.Font.BuilderSans
     titleBackColor2.Text = options.text
     titleBackColor2.TextColor3 = Color3.fromRGB(38, 180, 246)
     titleBackColor2.TextSize = 35.000
     titleBackColor2.TextWrapped = true
     titleBackColor2.FontFace.Weight = Enum.FontWeight.Bold
+
+    Title.Name = "Title"
+    Title.Parent = SideBar
+    Title.BackgroundColor3 = Color3.fromRGB(234, 239, 245)
+    Title.BackgroundTransparency = 1.000
+    Title.BorderSizePixel = 0
+    Title.Position = UDim2.new(0, 0, 0.016, 0)
+    Title.Size = UDim2.new(0, 193, 0, 50)
+    Title.Font = Enum.Font.BuilderSans
+    Title.Text = options.text
+    Title.TextColor3 = Color3.fromRGB(255, 255, 255)
+    Title.TextSize = 35.000
+    Title.TextWrapped = true
+    Title.FontFace.Weight = Enum.FontWeight.Bold
 
     --[[saveBtn.Name = "saveBtn"
     saveBtn.Parent = TopBar
