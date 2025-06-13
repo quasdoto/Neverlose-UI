@@ -186,6 +186,7 @@ function Library:Window(options)
     Title.BorderSizePixel = 0
     Title.Position = UDim2.new(0, 0, 0.016, 0)
     Title.Size = UDim2.new(0, 193, 0, 50)
+    Title.ZIndex = 2
     Title.Font = Enum.Font.BuilderSans
     Title.Text = options.text
     Title.TextColor3 = Color3.fromRGB(255, 255, 255)
@@ -200,6 +201,7 @@ function Library:Window(options)
     titleBackColor.BorderSizePixel = 0
     titleBackColor.Position = UDim2.new(-0.005, 0, 0.015, 0)
     titleBackColor.Size = UDim2.new(0, 194, 0, 50)
+    titleBackColor.ZIndex = 1
     titleBackColor.Font = Enum.Font.BuilderSans
     titleBackColor.Text = options.text
     titleBackColor.TextColor3 = Color3.fromRGB(38, 180, 246)
@@ -214,6 +216,7 @@ function Library:Window(options)
     titleBackColor2.BorderSizePixel = 0
     titleBackColor2.Position = UDim2.new(-0.005, 0, 0.016, 0)
     titleBackColor2.Size = UDim2.new(0, 193, 0, 50)
+    titleBackColor2.ZIndex = 1
     titleBackColor2.Font = Enum.Font.BuilderSans
     titleBackColor2.Text = options.text
     titleBackColor2.TextColor3 = Color3.fromRGB(38, 180, 246)
