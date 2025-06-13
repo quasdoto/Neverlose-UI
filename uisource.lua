@@ -121,6 +121,12 @@ function Library:Window(options)
     --local saveBtn = Instance.new("TextButton")
     --local saveLabel = Instance.new("ImageLabel")
 
+    local ppLine = Instance.new("Frame")
+    local playerProfile = Instance.new("ImageButton")
+    local playerProfileCorner = Instance.new("UICorner")
+    local playerProfileName = Instance.new("TextLabel")
+    local playerProfileSub = Instance.new("TextLabel")
+    
     local allPages = Instance.new("Frame")
     local tabContainer = Instance.new("Frame")
 
@@ -184,7 +190,7 @@ function Library:Window(options)
     titleBackColor.BackgroundColor3 = Color3.fromRGB(234, 239, 245)
     titleBackColor.BackgroundTransparency = 1.000
     titleBackColor.BorderSizePixel = 0
-    titleBackColor.Position = UDim2.new(-0.005, 0, 0.015, 0)
+    titleBackColor.Position = UDim2.new(-0.005, 0, 0.014, 0)
     titleBackColor.Size = UDim2.new(0, 194, 0, 50)
     titleBackColor.Font = Enum.Font.BuilderSans
     titleBackColor.Text = options.text
@@ -255,6 +261,50 @@ function Library:Window(options)
     saveLabel.Image = "rbxassetid://7999984136"
     saveLabel.ImageColor3 = Color3.fromRGB(132, 146, 153)
     ]]
+
+    ppLine.Name = "ppLine"
+    ppLine.Parent = SideBar
+    ppLine.BackgroundColor3 = Color3.fromRGB(21, 21, 21)
+    ppLine.BorderSizePixel = 0
+    ppLine.Position = UDim2.new(0, 0, 0.9, 0)
+    ppLine.Size = UDim2.new(0, 191, 0, 2)
+
+    playerProfile.Name = "playerProfile"
+    playerProfile.Parent = SideBar
+    playerProfile.BorderSizePixel = 0
+    playerProfile.Position = UDim2.new(0.058, 0, 0.921, 0)
+    playerProfile.Size = UDim2.new(0, 37, 0, 37)
+
+    playerProfileCorner.CornerRadius = UDim.new(1, 0)
+    playerProfileCorner.Name = "playerProfileCorner"
+    playerProfileCorner.Parent = SideBar
+
+    playerProfileName.Name = "playerProfileName"
+    local player = game.Players.LocalPlayer
+    playerProfileName.Parent = SideBar
+    playerProfileName.BackgroundColor3 = Color3.fromRGB(234, 239, 245)
+    playerProfileName.BackgroundTransparency = 1.000
+    playerProfileName.BorderSizePixel = 0
+    playerProfileName.Position = UDim2.new(0, 0.309, 0.924, 0)
+    playerProfileName.Size = UDim2.new(0, 124, 0, 13)
+    playerProfileName.Font = Enum.Font.BuilderSans
+    playerProfileName.Text = player.Name
+    playerProfileName.TextColor3 = Color3.fromRGB(255, 255, 255)
+    playerProfileName.TextSize = 20.000
+    playerProfileName.TextWrapped = true
+
+    playerProfileSub.Name = "playerProfileSub"
+    playerProfileSub.Parent = SideBar
+    playerProfileSub.BackgroundColor3 = Color3.fromRGB(234, 239, 245)
+    playerProfileSub.BackgroundTransparency = 1.000
+    playerProfileSub.BorderSizePixel = 0
+    playerProfileSub.Position = UDim2.new(0, 0.3, 0.965, 0)
+    playerProfileSub.Size = UDim2.new(0, 95, 0, 8)
+    playerProfileSub.Font = Enum.Font.NunitoSans
+    playerProfileSub.Text = player.Name
+    playerProfileSub.TextColor3 = Color3.fromRGB(255, 255, 255)
+    playerProfileSub.TextSize = 17.000
+    playerProfileSub.TextWrapped = true
 
     allPages.Name = "allPages"
     allPages.Parent = Body
