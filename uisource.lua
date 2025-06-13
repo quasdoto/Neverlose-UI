@@ -139,6 +139,7 @@ function Library:Window(options)
     bodyCornerFiller.BorderSizePixel = 0
     bodyCornerFiller.Position = UDim2.new(0.179, 0, 0, 0)
     bodyCornerFiller.Size = UDim2.new(0, 44, 0, 620)
+    bodyCornerFiller.ZIndex = 0
 
     bodyCorner.CornerRadius = UDim.new(0, 10)
     bodyCorner.Name = "bodyCorner"
@@ -184,7 +185,7 @@ function Library:Window(options)
     Title.BorderSizePixel = 0
     Title.Position = UDim2.new(0.0614973232, 0, 0.0213178284, 0)
     Title.Size = UDim2.new(0, 162, 0, 26)
-    Title.Font = Enum.Font.ArialBold
+    Title.Font = Enum.Font.MuseoSans
     Title.Text = options.text
     Title.TextColor3 = Color3.fromRGB(234, 239, 245)
     Title.TextSize = 28.000
