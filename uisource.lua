@@ -188,7 +188,7 @@ function Library:Window(options)
     titleBackColor.Size = UDim2.new(0, 194, 0, 50)
     titleBackColor.Font = Enum.Font.BuilderSans
     titleBackColor.RichText = true
-    -- titleBackColor.Text = "</b>" .. options.text .. "</b>"
+    titleBackColor.Text = "</b>" .. options.text .. "</b>"
     titleBackColor.TextColor3 = Color3.fromRGB(38, 180, 246)
     titleBackColor.TextSize = 35.000
     titleBackColor.TextWrapped = true
@@ -202,7 +202,7 @@ function Library:Window(options)
     titleBackColor2.Size = UDim2.new(0, 193, 0, 50)
     titleBackColor2.Font = Enum.Font.BuilderSans
     titleBackColor2.RichText = true
-    -- titleBackColor2.Text = "</b>" .. options.text .. "</b>"
+    titleBackColor2.Text = "</b>" .. options.text .. "</b>"
     titleBackColor2.TextColor3 = Color3.fromRGB(38, 180, 246)
     titleBackColor2.TextSize = 35.000
     titleBackColor2.TextWrapped = true
@@ -216,7 +216,7 @@ function Library:Window(options)
     Title.Size = UDim2.new(0, 193, 0, 50)
     Title.Font = Enum.Font.BuilderSans
     Title.RichText = true
-    -- Title.Text = "</b>" .. options.text .. "</b>"
+    Title.Text = "</b>" .. options.text .. "</b>"
     Title.TextColor3 = Color3.fromRGB(255, 255, 255)
     Title.TextSize = 35.000
     Title.TextWrapped = true
