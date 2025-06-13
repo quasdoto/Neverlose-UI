@@ -187,11 +187,11 @@ function Library:Window(options)
     titleBackColor.Position = UDim2.new(-0.005, 0, 0.015, 0)
     titleBackColor.Size = UDim2.new(0, 194, 0, 50)
     titleBackColor.Font = Enum.Font.BuilderSans
-    titleBackColor.Text = options.text
+    titleBackColor.RichText = true
+    titleBackColor.Text = </b> options.text </b>
     titleBackColor.TextColor3 = Color3.fromRGB(38, 180, 246)
     titleBackColor.TextSize = 35.000
     titleBackColor.TextWrapped = true
-    titleBackColor.FontFace.Bold = Enum.FontWeight.Bold
     
     titleBackColor2.Name = "titleBackColor2"
     titleBackColor2.Parent = SideBar
@@ -201,11 +201,11 @@ function Library:Window(options)
     titleBackColor2.Position = UDim2.new(-0.005, 0, 0.016, 0)
     titleBackColor2.Size = UDim2.new(0, 193, 0, 50)
     titleBackColor2.Font = Enum.Font.BuilderSans
-    titleBackColor2.Text = options.text
+    titleBackColor2.RichText = true
+    titleBackColor2.Text = </b> options.text </b>
     titleBackColor2.TextColor3 = Color3.fromRGB(38, 180, 246)
     titleBackColor2.TextSize = 35.000
     titleBackColor2.TextWrapped = true
-    titleBackColor2.FontFace.Bold = Enum.FontWeight.Bold
 
     Title.Name = "Title"
     Title.Parent = SideBar
@@ -215,11 +215,11 @@ function Library:Window(options)
     Title.Position = UDim2.new(0, 0, 0.016, 0)
     Title.Size = UDim2.new(0, 193, 0, 50)
     Title.Font = Enum.Font.BuilderSans
-    Title.Text = options.text
+    Title.RichText = true
+    Title.Text = </b> options.text </b>
     Title.TextColor3 = Color3.fromRGB(255, 255, 255)
     Title.TextSize = 35.000
     Title.TextWrapped = true
-    Title.FontFace.Bold = Enum.FontWeight.Bold
 
     --[[saveBtn.Name = "saveBtn"
     saveBtn.Parent = TopBar
