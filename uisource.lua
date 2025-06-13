@@ -137,7 +137,7 @@ function Library:Window(options)
     bodyCornerFiller.Parent = Body
     bodyCornerFiller.BackgroundColor3 = Color3.fromRGB(26, 36, 48)
     bodyCornerFiller.BorderSizePixel = 0
-    bodyCornerFiller.Position = UDim2.new(0.300, 0, 0, 0)
+    bodyCornerFiller.Position = UDim2.new(0.266, 0, 0, 0)
     bodyCornerFiller.Size = UDim2.new(0, 12, 0, 516)
 
     bodyCorner.CornerRadius = UDim.new(0, 10)
