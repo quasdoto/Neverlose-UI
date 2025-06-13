@@ -116,6 +116,8 @@ function Library:Window(options)
     local TopBar = Instance.new("Frame")
     local tbLine = Instance.new("Frame")
     local Title = Instance.new("TextLabel")
+    local titleBackColor = Instance.new("TextLabel")
+    local titleBackColor2 = Instance.new("TextLabel")
     --local saveBtn = Instance.new("TextButton")
     --local saveLabel = Instance.new("ImageLabel")
 
@@ -182,14 +184,42 @@ function Library:Window(options)
     Title.BackgroundColor3 = Color3.fromRGB(234, 239, 245)
     Title.BackgroundTransparency = 1.000
     Title.BorderSizePixel = 0
-    Title.Position = UDim2.new(0.0614973232, 0, 0.0213178284, 0)
-    Title.Size = UDim2.new(0, 162, 0, 26)
+    Title.Position = UDim2.new(0, 0, 0.016, 0)
+    Title.Size = UDim2.new(0, 193, 0, 50)
     Title.Font = Enum.Font.BuilderSans
     Title.Text = options.text
-    Title.TextColor3 = Color3.fromRGB(234, 239, 245)
-    Title.TextSize = 28.000
+    Title.TextColor3 = Color3.fromRGB(255, 255, 255)
+    Title.TextSize = 35.000
     Title.TextWrapped = true
     Title.FontFace.Weight = Enum.FontWeight.Bold
+
+    titleBackColor.Name = "titleBackColor"
+    titleBackColor.Parent = SideBar
+    titleBackColor.BackgroundColor3 = Color3.fromRGB(234, 239, 245)
+    titleBackColor.BackgroundTransparency = 1.000
+    titleBackColor.BorderSizePixel = 0
+    titleBackColor.Position = UDim2.new(-0.005, 0, 0.015, 0)
+    titleBackColor.Size = UDim2.new(0, 194, 0, 50)
+    titleBackColor.Font = Enum.Font.BuilderSans
+    titleBackColor.Text = options.text
+    titleBackColor.TextColor3 = Color3.fromRGB(38, 180, 246)
+    titleBackColor.TextSize = 35.000
+    titleBackColor.TextWrapped = true
+    titleBackColor.FontFace.Weight = Enum.FontWeight.Bold
+    
+    titleBackColor2.Name = "titleBackColor2"
+    titleBackColor2.Parent = SideBar
+    titleBackColor2.BackgroundColor3 = Color3.fromRGB(234, 239, 245)
+    titleBackColor2.BackgroundTransparency = 1.000
+    titleBackColor2.BorderSizePixel = 0
+    titleBackColor2.Position = UDim2.new(-0.005, 0, 0.016, 0)
+    titleBackColor2.Size = UDim2.new(0, 193, 0, 50)
+    titleBackColor2.Font = Enum.Font.BuilderSans
+    titleBackColor2.Text = options.text
+    titleBackColor2.TextColor3 = Color3.fromRGB(38, 180, 246)
+    titleBackColor2.TextSize = 35.000
+    titleBackColor2.TextWrapped = true
+    titleBackColor2.FontFace.Weight = Enum.FontWeight.Bold
 
     --[[saveBtn.Name = "saveBtn"
     saveBtn.Parent = TopBar
