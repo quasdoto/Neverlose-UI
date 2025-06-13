@@ -107,7 +107,7 @@ function Library:Window(options)
     local Body = Instance.new("Frame")
     Dragify(Body, Body)
     local bodyCorner = Instance.new("UICorner")
-    -- local bodyCornerFiller = Instance.new("Frame")
+    local bodyCornerFiller = Instance.new("Frame")
 
     local SideBar = Instance.new("Frame")
     local sidebarCorner = Instance.new("UICorner")
