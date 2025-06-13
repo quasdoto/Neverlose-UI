@@ -133,8 +133,8 @@ function Library:Window(options)
     Body.Position = UDim2.new(0.465730786, 0, 0.5, 0)
     Body.Size = UDim2.new(0, 658, 0, 516)
 
-    -- bodyCornerFiller.Name = "bodyCornerFiller"
-    -- bodyCornerFiller.Parent = Body
+    bodyCornerFiller.Name = "bodyCornerFiller"
+    bodyCornerFiller.Parent = Body
     -- bodyCornerFiller.BackgroundColor3 = Color3.fromRGB(26, 36, 48)
     -- bodyCornerFiller.BorderSizePixel = 0
     -- bodyCornerFiller.Position = Udim2.new(0.266, 0, 0, 0)
