@@ -106,6 +106,7 @@ function Library:Window(options)
     local SG = Instance.new("ScreenGui")
     local Body = Instance.new("Frame")
     Dragify(Body, Body)
+    local bodyCornerFiller = Instance.new("Frame")
     local bodyCorner = Instance.new("UICorner")
 
     local SideBar = Instance.new("Frame")
@@ -131,6 +132,13 @@ function Library:Window(options)
     Body.BorderSizePixel = 0
     Body.Position = UDim2.new(0.465730786, 0, 0.5, 0)
     Body.Size = UDim2.new(0, 658, 0, 516)
+
+    bodyCornerFiller.Name = "bodyCornerFiller"
+    bodyCornerFiller.parent = Body
+    bodyCornerFiller.BackgroundColor3 = Color3.fromRGB(26, 36, 48)
+    bodyCornerFiller.BorderSizePixel = 0
+    bodyCornerFiller.Position = Udim2.new(0.266, 0, 0, 0)
+    bodyCornerFiller.Size = UDim2.new(0, 12, 0, 516)
 
     bodyCorner.CornerRadius = UDim.new(0, 10)
     bodyCorner.Name = "bodyCorner"
