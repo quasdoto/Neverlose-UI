@@ -184,7 +184,7 @@ function Library:Window(options)
     Title.BorderSizePixel = 0
     Title.Position = UDim2.new(0.0614973232, 0, 0.0213178284, 0)
     Title.Size = UDim2.new(0, 162, 0, 26)
-    Title.Font = Enum.Font.MuseoSans
+    Title.Font = Enum.Font.ArialBold
     Title.Text = options.text
     Title.TextColor3 = Color3.fromRGB(234, 239, 245)
     Title.TextSize = 28.000
