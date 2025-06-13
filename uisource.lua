@@ -187,11 +187,15 @@ function Library:Window(options)
     titleBackColor.Position = UDim2.new(-0.005, 0, 0.015, 0)
     titleBackColor.Size = UDim2.new(0, 194, 0, 50)
     titleBackColor.Font = Enum.Font.BuilderSans
-    titleBackColor.RichText = true
-    titleBackColor.Text = "</b>" .. options.text .. "</b>"
+    titleBackColor.Text = options.text
     titleBackColor.TextColor3 = Color3.fromRGB(38, 180, 246)
     titleBackColor.TextSize = 35.000
     titleBackColor.TextWrapped = true
+    titleBackColor.FontFace = Font.new(
+        "rbxasset://fonts/families/SourceSansPro.json",  -- Путь к шрифту
+        Enum.FontWeight.Bold,                        -- Жирный
+        Enum.FontStyle.Normal                        -- Обычный (не курсив)
+    )
     
     titleBackColor2.Name = "titleBackColor2"
     titleBackColor2.Parent = SideBar
@@ -201,11 +205,15 @@ function Library:Window(options)
     titleBackColor2.Position = UDim2.new(-0.005, 0, 0.016, 0)
     titleBackColor2.Size = UDim2.new(0, 193, 0, 50)
     titleBackColor2.Font = Enum.Font.BuilderSans
-    titleBackColor2.RichText = true
-    titleBackColor2.Text = "</b>" .. options.text .. "</b>"
+    titleBackColor2.Text = options.text
     titleBackColor2.TextColor3 = Color3.fromRGB(38, 180, 246)
     titleBackColor2.TextSize = 35.000
     titleBackColor2.TextWrapped = true
+    titleBackColor2.FontFace = Font.new(
+        "rbxasset://fonts/families/SourceSansPro.json",  -- Путь к шрифту
+        Enum.FontWeight.Bold,                        -- Жирный
+        Enum.FontStyle.Normal                        -- Обычный (не курсив)
+    )
 
     Title.Name = "Title"
     Title.Parent = SideBar
@@ -215,11 +223,15 @@ function Library:Window(options)
     Title.Position = UDim2.new(0, 0, 0.016, 0)
     Title.Size = UDim2.new(0, 193, 0, 50)
     Title.Font = Enum.Font.BuilderSans
-    Title.RichText = true
-    Title.Text = "</b>" .. options.text .. "</b>"
+    Title.Text = options.text
     Title.TextColor3 = Color3.fromRGB(255, 255, 255)
     Title.TextSize = 35.000
     Title.TextWrapped = true
+    Title.FontFace = Font.new(
+        "rbxasset://fonts/families/SourceSansPro.json",  -- Путь к шрифту
+        Enum.FontWeight.Bold,                        -- Жирный
+        Enum.FontStyle.Normal                        -- Обычный (не курсив)
+    )
 
     --[[saveBtn.Name = "saveBtn"
     saveBtn.Parent = TopBar
