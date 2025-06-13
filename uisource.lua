@@ -189,6 +189,7 @@ function Library:Window(options)
     Title.TextColor3 = Color3.fromRGB(234, 239, 245)
     Title.TextSize = 28.000
     Title.TextWrapped = true
+    Title.FontFace.Weight = Enum.FontWeight.Bold
 
     --[[saveBtn.Name = "saveBtn"
     saveBtn.Parent = TopBar
