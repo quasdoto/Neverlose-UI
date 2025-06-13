@@ -191,7 +191,7 @@ function Library:Window(options)
     titleBackColor.TextColor3 = Color3.fromRGB(38, 180, 246)
     titleBackColor.TextSize = 35.000
     titleBackColor.TextWrapped = true
-    titleBackColor.FontFace.Weight = Enum.FontWeight.Bold
+    titleBackColor.FontFace.Bold = Enum.FontWeight.Bold
     
     titleBackColor2.Name = "titleBackColor2"
     titleBackColor2.Parent = SideBar
@@ -205,7 +205,7 @@ function Library:Window(options)
     titleBackColor2.TextColor3 = Color3.fromRGB(38, 180, 246)
     titleBackColor2.TextSize = 35.000
     titleBackColor2.TextWrapped = true
-    titleBackColor2.FontFace.Weight = Enum.FontWeight.Bold
+    titleBackColor2.FontFace.Bold = Enum.FontWeight.Bold
 
     Title.Name = "Title"
     Title.Parent = SideBar
@@ -219,7 +219,7 @@ function Library:Window(options)
     Title.TextColor3 = Color3.fromRGB(255, 255, 255)
     Title.TextSize = 35.000
     Title.TextWrapped = true
-    Title.FontFace.Weight = Enum.FontWeight.Bold
+    Title.FontFace.Bold = Enum.FontWeight.Bold
 
     --[[saveBtn.Name = "saveBtn"
     saveBtn.Parent = TopBar
