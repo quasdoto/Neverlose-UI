@@ -139,7 +139,6 @@ function Library:Window(options)
     bodyCornerFiller.BorderSizePixel = 0
     bodyCornerFiller.Position = UDim2.new(0.179, 0, 0, 0)
     bodyCornerFiller.Size = UDim2.new(0, 44, 0, 620)
-    bodyCornerFiller.ZIndex = 0
 
     bodyCorner.CornerRadius = UDim.new(0, 10)
     bodyCorner.Name = "bodyCorner"
