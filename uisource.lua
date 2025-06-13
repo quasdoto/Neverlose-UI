@@ -174,7 +174,7 @@ function Library:Window(options)
     tbLine.Parent = TopBar
     tbLine.BackgroundColor3 = Color3.fromRGB(21, 21, 21)
     tbLine.BorderSizePixel = 0
-    tbLine.Position = UDim2.new(-0, 0, 0,999, 0)
+    tbLine.Position = UDim2.new(-0, 0, 0.999, 0)
     tbLine.Size = UDim2.new(0, 627, 0, 2)
 
     Title.Name = "Title"
@@ -184,7 +184,7 @@ function Library:Window(options)
     Title.BorderSizePixel = 0
     Title.Position = UDim2.new(0.0614973232, 0, 0.0213178284, 0)
     Title.Size = UDim2.new(0, 162, 0, 26)
-    Title.Font = Enum.Font.ArialBold
+    Title.Font = Enum.Font.BuilderSans
     Title.Text = options.text
     Title.TextColor3 = Color3.fromRGB(234, 239, 245)
     Title.TextSize = 28.000
