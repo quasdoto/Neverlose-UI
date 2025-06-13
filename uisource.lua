@@ -115,9 +115,9 @@ function Library:Window(options)
 
     local TopBar = Instance.new("Frame")
     local tbLine = Instance.new("Frame")
-    local Title = Instance.new("TextLabel")
     local titleBackColor = Instance.new("TextLabel")
     local titleBackColor2 = Instance.new("TextLabel")
+    local Title = Instance.new("TextLabel")
     --local saveBtn = Instance.new("TextButton")
     --local saveLabel = Instance.new("ImageLabel")
 
