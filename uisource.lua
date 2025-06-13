@@ -131,14 +131,14 @@ function Library:Window(options)
     Body.BackgroundColor3 = Color3.fromRGB(9, 8, 13)
     Body.BorderSizePixel = 0
     Body.Position = UDim2.new(0.465730786, 0, 0.5, 0)
-    Body.Size = UDim2.new(0, 658, 0, 516)
+    Body.Size = UDim2.new(0, 820, 0, 620)
 
     bodyCornerFiller.Name = "bodyCornerFiller"
     bodyCornerFiller.Parent = Body
-    bodyCornerFiller.BackgroundColor3 = Color3.fromRGB(26, 36, 48)
+    bodyCornerFiller.BackgroundColor3 = Color3.fromRGB(25, 37, 49)
     bodyCornerFiller.BorderSizePixel = 0
-    bodyCornerFiller.Position = UDim2.new(0.266, 0, 0, 0)
-    bodyCornerFiller.Size = UDim2.new(0, 12, 0, 516)
+    bodyCornerFiller.Position = UDim2.new(0.179, 0, 0, 0)
+    bodyCornerFiller.Size = UDim2.new(0, 44, 0, 620)
 
     bodyCorner.CornerRadius = UDim.new(0, 10)
     bodyCorner.Name = "bodyCorner"
@@ -146,9 +146,9 @@ function Library:Window(options)
 
     SideBar.Name = "SideBar"
     SideBar.Parent = Body
-    SideBar.BackgroundColor3 = Color3.fromRGB(26, 36, 48)
+    SideBar.BackgroundColor3 = Color3.fromRGB(25, 37, 49)
     SideBar.BorderSizePixel = 0
-    SideBar.Size = UDim2.new(0, 187, 0, 516)
+    SideBar.Size = UDim2.new(0, 191, 0, 620)
 
     sidebarCorner.CornerRadius = UDim.new(0, 10)
     sidebarCorner.Name = "sidebarCorner"
@@ -156,26 +156,26 @@ function Library:Window(options)
 
     sbLine.Name = "sbLine"
     sbLine.Parent = SideBar
-    sbLine.BackgroundColor3 = Color3.fromRGB(15, 23, 36)
+    sbLine.BackgroundColor3 = Color3.fromRGB(21, 21, 21)
     sbLine.BorderSizePixel = 0
-    sbLine.Position = UDim2.new(0.99490571, 0, 0, 0)
-    sbLine.Size = UDim2.new(0, 3, 0, 516)
+    sbLine.Position = UDim2.new(1.002, 0, 0, 0)
+    sbLine.Size = UDim2.new(0, 2, 0, 620)
 
     TopBar.Name = "TopBar"
     TopBar.Parent = Body
     TopBar.BackgroundColor3 = Color3.fromRGB(9, 8, 13)
     TopBar.BackgroundTransparency = 1.000
-    TopBar.BorderColor3 = Color3.fromRGB(14, 21, 32)
+    TopBar.BorderColor3 = Color3.fromRGB(25, 37, 49)
     TopBar.BorderSizePixel = 0
-    TopBar.Position = UDim2.new(0.25166446, 0, 0, 0)
-    TopBar.Size = UDim2.new(0, 562, 0, 49)
+    TopBar.Position = UDim2.new(0.236, 0, 0, 0)
+    TopBar.Size = UDim2.new(0, 627, 0, 70)
 
     tbLine.Name = "tbLine"
     tbLine.Parent = TopBar
-    tbLine.BackgroundColor3 = Color3.fromRGB(15, 23, 36)
+    tbLine.BackgroundColor3 = Color3.fromRGB(21, 21, 21)
     tbLine.BorderSizePixel = 0
-    tbLine.Position = UDim2.new(0.0400355868, 0, 1, 0)
-    tbLine.Size = UDim2.new(0, 469, 0, 3)
+    tbLine.Position = UDim2.new(-0, 0, 0,999, 0)
+    tbLine.Size = UDim2.new(0, 627, 0, 2)
 
     Title.Name = "Title"
     Title.Parent = SideBar
