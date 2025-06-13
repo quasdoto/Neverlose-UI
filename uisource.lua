@@ -277,7 +277,7 @@ function Library:Window(options)
 
     playerProfileCorner.CornerRadius = UDim.new(1, 0)
     playerProfileCorner.Name = "playerProfileCorner"
-    playerProfileCorner.Parent = SideBar
+    playerProfileCorner.Parent = playerProfile
 
     playerProfileName.Name = "playerProfileName"
     local player = game.Players.LocalPlayer
@@ -301,7 +301,7 @@ function Library:Window(options)
     playerProfileSub.Position = UDim2.new(0, 0.3, 0.965, 0)
     playerProfileSub.Size = UDim2.new(0, 95, 0, 8)
     playerProfileSub.Font = Enum.Font.NunitoSans
-    playerProfileSub.Text = player.Name
+    playerProfileSub.Text = "Build: Free"
     playerProfileSub.TextColor3 = Color3.fromRGB(255, 255, 255)
     playerProfileSub.TextSize = 17.000
     playerProfileSub.TextWrapped = true
